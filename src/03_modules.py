@@ -13,11 +13,12 @@ import sys
 print("this is the script location and name: " + sys.argv[0])
 
 # Print out the OS platform you're using:
-# print("My OS Version is" + sys)
+
 # YOUR CODE HERE
 
 # Print out the version of Python you're using:
 # YOUR CODE HERE
+print("My Python Version is: " + str(sys.version_info))
 
 
 import os
