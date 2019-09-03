@@ -30,6 +30,8 @@ print("My process ID is: " + str(os.getpid()))
 
 # Print the current working directory (cwd):
 # YOUR CODE HERE
+print("My cwd is: " + str(os.getcwd()))
 
 # Print out your machine's login name
 # YOUR CODE HERE
+print("My machines login name is : " + str(os.getlogin()))
