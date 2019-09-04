@@ -48,7 +48,7 @@ print(waypoints)
 for x in waypoints:
     if x["name"] == "a place":
         x["lon"] = -130
-        x["lat"] = "not a real place"
+        x["name"] = "not a real place"
 
 print(waypoints)
 
