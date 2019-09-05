@@ -20,6 +20,7 @@ f.closed
 # sure that it contains what you expect it to contain
 
 # YOUR CODE HERE
+# https://stackoverflow.com/questions/1466000/python-open-built-in-function-difference-between-modes-a-a-w-w-and-r
 with open("bar.txt", 'w+') as x:
 	write_data = input('What do you want to write in your notepad? :: ')
 	x.write(write_data)
