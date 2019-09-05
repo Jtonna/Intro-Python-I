@@ -20,3 +20,10 @@ f.closed
 # sure that it contains what you expect it to contain
 
 # YOUR CODE HERE
+with open("bar.txt", 'w+') as x:
+	write_data = input('What do you want to write in your notepad? :: ')
+	x.write(write_data)
+	read_data = x.read()
+	print(read_data)
+x.closed
+
