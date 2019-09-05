@@ -32,21 +32,21 @@ from datetime import datetime
 if len(sys.argv) == 1:
   theMonth = datetime.now().month
   theYear = datetime.now().year
-  print('t1' + calendar.month(theYear, theMonth)) 
+  print(calendar.month(theYear, theMonth)) 
   quit()
 
 # If the user passes in the month, we shall assume the year they want is the current calendar year
 elif len(sys.argv) == 2:
   theMonth = int(sys.argv[1])
   theYear = datetime.now().year
-  print('t2' + calendar.month(theYear, theMonth))
+  print(calendar.month(theYear, theMonth))
   quit()
 
 # If the user passes in a month and year, we give them what they want.
 elif len(sys.argv) == 3:
   theMonth = int(sys.argv[1])
   theYear = int(sys.argv[2])
-  print('t3' + calendar.month(theYear, theMonth))
+  print(calendar.month(theYear, theMonth))
   quit()
 
 # If the user passes in more than 3 arguments we give them a usage statement
