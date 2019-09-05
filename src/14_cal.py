@@ -27,6 +27,3 @@ Write a program that accepts user input of the form
 import sys
 import calendar
 from datetime import datetime
-
-
-user_input = input("Please enter a date in the format of []")
